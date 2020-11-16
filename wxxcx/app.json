@@ -1,0 +1,50 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/user/user"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#00BFFF",
+        "navigationBarTitleText": "西南交大人上人",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+
+    "tabBar": {
+        "color": "",
+        "selectedColor": "",
+        "backgroundColor": "",
+        "position": "bottom",
+        "borderStyle": "black",
+        "list": [{
+                "pagePath": "pages/user/user",
+                "text": "探索",
+                "iconPath": "icon/tabbar/integral.png",
+                "selectedIconPath": "icon/tabbar/integral1.png"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "icon/tabbar/Moneymanagement.png",
+                "selectedIconPath": "icon/tabbar/Moneymanagement1.png"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "text": "我的",
+                "iconPath": "icon/tabbar/bussiness-man.png",
+                "selectedIconPath": "icon/tabbar/bussiness-man1.png"
+            }
+
+
+        ]
+    }
+
+
+
+
+
+
+}
